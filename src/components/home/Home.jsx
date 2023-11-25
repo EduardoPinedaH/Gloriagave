@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
                     <a
                         href='#reserve_link'
-                        className='text-2xl w-44 h-10 flex flex-col text-center items-center justify-center transition duration-[.3s] text-slate-100 bg-[#505E5D] rounded-xl font-extrabold hover:font-black hover:bg-[rgba(80,94,93,0.8)] nav__link mt-10 md:mt-5 hover:scale-105 ml-32 md:mr-20'
+                        className='text-2xl w-44 h-10 flex flex-col text-center items-center justify-center transition duration-[.3s] text-slate-100 bg-[#505E5D] rounded-xl font-extrabold hover:font-black hover:bg-[rgba(80,94,93,0.8)] nav__link mt-10 md:mt-5 hover:scale-105 m-auto md:mr-20'
                         id='home__button'
                     >
                         Book now

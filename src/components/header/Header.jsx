@@ -21,7 +21,7 @@ const Header = () => {
                 <img
                     src={Logo}
                     alt='Logo'
-                    className='nav__logo md:w-12 h-auto lg:mr-48'
+                    className='nav__logo w-8 md:w-12 h-auto lg:mr-48'
                 />
                 <img
                     src={NameLogo}
