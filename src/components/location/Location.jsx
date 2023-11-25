@@ -21,10 +21,10 @@ const Location = () => {
                         alt='Space1'
                         className='w-[1206px] h-[552px]'
                     /> */}
-                    <iframe
+                    {/* <iframe
                         src='https://snazzymaps.com/embed/548639'
                         className='w-[450px] md:w-[1206px] h-[300px] md:h-[552px] mr-auto ml-auto object-cover'
-                    ></iframe>
+                    ></iframe> */}
                     <a
                         href='https://www.google.com/maps/dir//Hotel+Gloriagave,+Galeana+225,+La+Mezcalera,+46400+Tequila,+Jal./@20.8789636,-103.9250185,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x842615e7bd12aedd:0x7c34219aa579f58d!2m2!1d-103.8426168!2d20.8789833?hl=es-419&entry=ttu'
                         target='_blank'
