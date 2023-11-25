@@ -78,6 +78,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 html {
@@ -95,7 +96,6 @@ textarea {
 body {
     background-color: var(--body-color);
     color: var(--text-color);
-    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
