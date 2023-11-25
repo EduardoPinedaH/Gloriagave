@@ -12,21 +12,18 @@ const About = () => {
                 className='flex flex-wrap md:flex-col mr-auto ml-auto md:gap-5'
                 id='fade'
             >
-                <div className='flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                <div className='flex flex-col md:flex-row w-[450px] md:w-[1100px] md:gap-10 mr-auto ml-auto'>
                     <div className='md:flex md:flex-col md:w-4/5 mb-5 md:mb-0'>
-                        <h1 className='text-center md:text-left text-5xl md:text-[3.125rem] font-[900] text-black mb-5 md:mb-0'>
+                        <h1 className='text-center md:text-left text-5xl md:text-[3.125rem] font-[900] text-black mb-5 md:mb-2'>
                             About our town
                         </h1>
-                        <span className=' text-center text-sm md:text-left md:text-[1rem] md:mb-8'>
+                        <span className=' text-center text-sm md:text-left md:text-[1rem] md:mb-8 md:w-4/5'>
                             Tequila it’s quaint town nestled in Jalisco, built
-                            with cobblestone streets
-                            <br /> and the aroma of blue agave, a place where
-                            history and tradition
-                            <br /> harmonize in every adobe wall. Its essence,
-                            distilled in the warmth of
-                            <br /> hospitality, beckons travelers to savor the
-                            rich heritage woven into its
-                            <br /> vibrant tapestry
+                            with cobblestone streets and the aroma of blue
+                            agave, a place where history and tradition harmonize
+                            in every adobe wall. Its essence, distilled in the
+                            warmth of hospitality, beckons travelers to savor
+                            the rich heritage woven into its vibrant tapestry
                         </span>
                     </div>
                     <div>
@@ -37,7 +34,7 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <div className='flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                <div className='flex flex-col md:flex-row w-[450px] md:w-[1100px] md:gap-10 mr-auto ml-auto'>
                     <div className='md:flex md:flex-col md:w-4/5'>
                         <h2 className='text-left text-[1.875rem] font-[900] text-black'>
                             What to do?
@@ -62,7 +59,7 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <div className='flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                <div className='flex flex-col md:flex-row w-[450px] md:w-[1100px] md:gap-10 mr-auto ml-auto'>
                     <div className='md:flex md:flex-col md:w-4/5'>
                         <p>
                             <span className=' font-[900] text-black'>
@@ -84,7 +81,7 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <div className='md:flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                <div className='md:flex flex-col md:flex-row w-[450px] md:w-[1100px] md:gap-10 mr-auto ml-auto'>
                     <div className='flex md:flex-col md:w-4/5'>
                         <p>
                             <span className=' font-[900] text-black'>

@@ -6,16 +6,20 @@ import OurSpaces from "./our-spaces/Our-Spaces";
 import About from "./about/About";
 import Location from "./location/Location";
 import Footer from "./footer/Footer";
+import ScrollUp from "./scroll-up/ScrollUp";
 
 function HomePage() {
     return (
         <>
             <Header />
-            <Home />
-            <OurSpaces />
-            <About />
-            <Location />
+            <main className='main'>
+                <Home />
+                <OurSpaces />
+                <About />
+                <Location />
+            </main>
             <Footer />
+            <ScrollUp />
         </>
     );
 }
