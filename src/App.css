@@ -98,11 +98,7 @@ body {
     overflow-x: hidden;
 }
 
-/* body::-webkit-scrollbar {
-    display: none;
-} */
-
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 1em;
     cursor: pointer;
 }
@@ -121,7 +117,7 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(80, 94, 93, 0.9)
-}
+} */
 
 h1,
 h2,
