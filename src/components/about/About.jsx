@@ -9,15 +9,15 @@ const About = () => {
     return (
         <section className='about section' id='about'>
             <div
-                className='flex md:flex-col mr-auto ml-auto md:gap-5'
+                className='flex flex-wrap md:flex-col mr-auto ml-auto md:gap-5'
                 id='fade'
             >
-                <div className='flex md:w-[1100px] md:gap-10 mr-auto ml-auto'>
-                    <div className='flex md:flex-col md:w-4/5'>
-                        <h1 className='md:text-left md:text-[3.125rem] font-[900] text-black'>
+                <div className='flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                    <div className='md:flex md:flex-col md:w-4/5 mb-5 md:mb-0'>
+                        <h1 className='text-center md:text-left text-5xl md:text-[3.125rem] font-[900] text-black mb-5 md:mb-0'>
                             About our town
                         </h1>
-                        <span className='md:text-[1rem] md:mb-8 '>
+                        <span className=' text-center text-sm md:text-left md:text-[1rem] md:mb-8'>
                             Tequila it’s quaint town nestled in Jalisco, built
                             with cobblestone streets
                             <br /> and the aroma of blue agave, a place where
@@ -33,12 +33,12 @@ const About = () => {
                         <img
                             src={Agave}
                             alt='Agave'
-                            className='md:w-[700px] md:h-[200px] object-cover'
+                            className='h-[200px] w-full md:w-[700px] md:h-[200px] object-cover'
                         />
                     </div>
                 </div>
-                <div className='flex md:w-[1100px] md:gap-10 mr-auto ml-auto'>
-                    <div className='flex md:flex-col md:w-4/5'>
+                <div className='flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                    <div className='md:flex md:flex-col md:w-4/5'>
                         <h2 className='text-left text-[1.875rem] font-[900] text-black'>
                             What to do?
                         </h2>
@@ -62,8 +62,8 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <div className='flex md:w-[1100px] md:gap-10 mr-auto ml-auto'>
-                    <div className='flex md:flex-col md:w-4/5'>
+                <div className='flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                    <div className='md:flex md:flex-col md:w-4/5'>
                         <p>
                             <span className=' font-[900] text-black'>
                                 Learn the artesanal process of out heritage
@@ -84,7 +84,7 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <div className='flex md:w-[1100px] md:gap-10 mr-auto ml-auto'>
+                <div className='md:flex flex-col md:flex-row md:w-[1100px] md:gap-10 mr-auto ml-auto'>
                     <div className='flex md:flex-col md:w-4/5'>
                         <p>
                             <span className=' font-[900] text-black'>
