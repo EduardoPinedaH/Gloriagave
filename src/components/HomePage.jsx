@@ -16,7 +16,7 @@ function HomePage() {
                 <Home />
                 <OurSpaces />
                 <About />
-                <Location />
+                {/* <Location /> */}
             </main>
             <Footer />
             <ScrollUp />
