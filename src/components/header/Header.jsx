@@ -16,17 +16,17 @@ const Header = () => {
     const [Toggle, setToggle] = useState(false);
 
     return (
-        <header className='w-full fixed top-0 left-0 z-[100] header py-5 md:py-0 px-2 md:px-0'>
-            <nav className='h-[8rem] flex justify-around items-center gap-[1rem] nav max-w-[1200px] mr-auto ml-auto'>
+        <header className='w-full fixed top-0 left-0 z-[100] header py-1 md:py-0 px-2 md:px-0'>
+            <nav className='md:h-[8rem] flex justify-around items-center gap-[1rem] nav max-w-[1200px] mr-auto ml-auto'>
                 <img
                     src={Logo}
                     alt='Logo'
-                    className='nav__logo w-8 md:w-12 h-auto lg:mr-48'
+                    className='nav__logo w-6 md:w-12 h-auto lg:mr-48'
                 />
                 <img
                     src={NameLogo}
                     alt='NameLogo'
-                    className='nav__logo w-[192px] h-[35.3px]'
+                    className='nav__logo w-[90px] md:w-[192px] md:h-[35.3px]'
                 />
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className='flex gap-[2rem] nav__list'>
