@@ -108,7 +108,7 @@ const About = () => {
                 </div>
             </section>
             <section className='about section md:hidden' id='about'>
-                <div className=' w-[85vw]'>
+                <div className=' w-[90vw]'>
                     <h2
                         className=' text-center text-[3.125rem] font-[900] text-black'
                         id='spaces__title'
