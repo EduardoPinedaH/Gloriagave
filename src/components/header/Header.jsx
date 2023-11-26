@@ -18,16 +18,22 @@ const Header = () => {
     return (
         <header className='w-full fixed top-0 left-0 z-[100] header py-1 md:py-0 px-2 md:px-0'>
             <nav className='md:h-[8rem] flex justify-around items-center gap-[1rem] nav max-w-[1200px] mr-auto ml-auto'>
-                <img
-                    src={Logo}
-                    alt='Logo'
-                    className='nav__logo w-6 md:w-12 h-auto lg:mr-48'
-                />
-                <img
-                    src={NameLogo}
-                    alt='NameLogo'
-                    className='nav__logo w-[90px] md:w-[192px] md:h-[35.3px]'
-                />
+                <a href='/'>
+                    <img
+                        src={Logo}
+                        alt='Logo'
+                        className='nav__logo w-6 md:w-12 h-auto lg:mr-48'
+                    />
+                </a>
+
+                <a href='/'>
+                    <img
+                        src={NameLogo}
+                        alt='NameLogo'
+                        className='nav__logo w-[90px] md:w-[192px] md:h-[35.3px]'
+                    />
+                </a>
+
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className='flex gap-[2rem] nav__list'>
                         <li className='nav__item'>
