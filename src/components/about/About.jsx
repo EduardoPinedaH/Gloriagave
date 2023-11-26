@@ -146,7 +146,7 @@ const About = () => {
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-left block text-[1rem] w-[85vw] mr-auto ml-auto'
+                        className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
@@ -171,7 +171,7 @@ const About = () => {
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-left block text-[1rem] w-[85vw] mr-auto ml-auto'
+                        className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
@@ -196,7 +196,7 @@ const About = () => {
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-left block text-[1rem] w-[85vw] mr-auto ml-auto'
+                        className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
