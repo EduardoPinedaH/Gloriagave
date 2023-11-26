@@ -150,18 +150,11 @@ const About = () => {
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
-                        cobblestone
-                        <br />
-                        streets and the aroma of blue agave, a place where
-                        history and
-                        <br />
-                        tradition harmonize in every adobe wall. Its essence,
-                        distilled in the
-                        <br />
-                        warmth of hospitality, beckons travelers to savor the
-                        rich heritage
-                        <br />
-                        woven into its vibrant tapestry
+                        cobblestone streets and the aroma of blue agave, a place
+                        where history and tradition harmonize in every adobe
+                        wall. Its essence, distilled in the warmth of
+                        hospitality, beckons travelers to savor the rich
+                        heritage woven into its vibrant tapestry.
                     </span>
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
@@ -182,18 +175,11 @@ const About = () => {
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
-                        cobblestone
-                        <br />
-                        streets and the aroma of blue agave, a place where
-                        history and
-                        <br />
-                        tradition harmonize in every adobe wall. Its essence,
-                        distilled in the
-                        <br />
-                        warmth of hospitality, beckons travelers to savor the
-                        rich heritage
-                        <br />
-                        woven into its vibrant tapestry
+                        cobblestone streets and the aroma of blue agave, a place
+                        where history and tradition harmonize in every adobe
+                        wall. Its essence, distilled in the warmth of
+                        hospitality, beckons travelers to savor the rich
+                        heritage woven into its vibrant tapestry.
                     </span>
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
@@ -214,18 +200,11 @@ const About = () => {
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
-                        cobblestone
-                        <br />
-                        streets and the aroma of blue agave, a place where
-                        history and
-                        <br />
-                        tradition harmonize in every adobe wall. Its essence,
-                        distilled in the
-                        <br />
-                        warmth of hospitality, beckons travelers to savor the
-                        rich heritage
-                        <br />
-                        woven into its vibrant tapestry
+                        cobblestone streets and the aroma of blue agave, a place
+                        where history and tradition harmonize in every adobe
+                        wall. Its essence, distilled in the warmth of
+                        hospitality, beckons travelers to savor the rich
+                        heritage woven into its vibrant tapestry.
                     </span>
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
