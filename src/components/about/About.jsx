@@ -161,7 +161,7 @@ const About = () => {
                         <img
                             src={Agave2}
                             alt='Agave2'
-                            className='w-[700px] object-cover'
+                            className='w-[800px] object-cover'
                             id='Agave2'
                         />
                     </div>
@@ -186,7 +186,7 @@ const About = () => {
                         <img
                             src={Agave3}
                             alt='Agave3'
-                            className='w-[700px] object-cover'
+                            className='w-[800px] object-cover'
                             id='Agave3'
                         />
                     </div>
@@ -211,7 +211,7 @@ const About = () => {
                         <img
                             src={Agave4}
                             alt='Agave4'
-                            className='w-[700px] object-cover'
+                            className='w-[800px] object-cover'
                             id='Agave4'
                         />
                     </div>
