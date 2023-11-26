@@ -116,7 +116,7 @@ const About = () => {
                         About our town
                     </h2>
                     <span
-                        className='text-center block text-sm w-[90vw]'
+                        className='text-center block text-sm w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
