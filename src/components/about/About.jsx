@@ -142,7 +142,7 @@ const About = () => {
                     >
                         What to do?
                     </h2>
-                    <p className='text-center font-[950] text-black w-[90vw] mr-auto ml-auto'>
+                    <p className='text-left font-[950] text-black w-[90vw] mr-auto ml-auto'>
                         Learn the artesanal process of out heritage
                     </p>
                     <span
