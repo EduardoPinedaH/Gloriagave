@@ -192,7 +192,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='mt-5'>
-                    <p className='text-center font-[900] text-black'>
+                    <p className='text-left font-[900] text-black'>
                         Learn the artesanal process of out heritage
                     </p>
                     <span
