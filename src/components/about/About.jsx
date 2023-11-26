@@ -110,13 +110,13 @@ const About = () => {
             <section className='about section md:hidden' id='about'>
                 <div>
                     <h2
-                        className=' text-center text-[3.125rem] font-[900] text-black'
+                        className=' text-center text-[2rem] font-[900] text-black'
                         id='spaces__title'
                     >
                         About our town
                     </h2>
                     <span
-                        className='text-center block text-sm w-[90vw] mr-auto ml-auto'
+                        className='text-center block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
