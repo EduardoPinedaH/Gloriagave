@@ -137,16 +137,16 @@ const About = () => {
                 </div>
                 <div>
                     <h2
-                        className=' text-center text-[2.5rem] font-[900] text-black mt-5'
+                        className=' text-center text-[2rem] font-[900] text-black mt-5'
                         id='spaces__title'
                     >
                         What to do?
                     </h2>
-                    <p className='text-center font-[900] text-black'>
+                    <p className='text-center font-[900] text-black w-[90vw] mr-auto ml-auto'>
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-center block text-sm'
+                        className=' text-center block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
@@ -178,7 +178,7 @@ const About = () => {
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-center block text-sm'
+                        className=' text-center block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
@@ -210,7 +210,7 @@ const About = () => {
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-center block text-sm'
+                        className=' text-center block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
