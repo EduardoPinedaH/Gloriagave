@@ -167,7 +167,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='mt-5'>
-                    <p className='text-left font-[950] text-black'>
+                    <p className='text-left font-[950]  text-black w-[90vw] mr-auto ml-auto'>
                         Learn the artesanal process of out heritage
                     </p>
                     <span
@@ -192,7 +192,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='mt-5'>
-                    <p className='text-left font-[950] text-black'>
+                    <p className='text-left font-[950]  text-black w-[90vw] mr-auto ml-auto'>
                         Learn the artesanal process of out heritage
                     </p>
                     <span
