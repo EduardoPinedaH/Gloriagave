@@ -8,7 +8,7 @@ const Home = () => {
             <img
                 src={HeroImg}
                 alt='HeroImg'
-                className='md:w-[100vw] h-[25rem] md:h-auto object-cover'
+                className='md:w-[100vw] h-[25rem] md:h-auto object-cover z-[99999]'
             />
             <div className='home__container container grid mt-5'>
                 <div className='flex md:flex-row flex-col justify-between'>
