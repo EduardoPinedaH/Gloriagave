@@ -130,7 +130,7 @@ const About = () => {
                         <img
                             src={Agave}
                             alt='Agave'
-                            className='w-[700px] object-cover'
+                            className='w-[900px] object-cover'
                             id='Agave'
                         />
                     </div>
