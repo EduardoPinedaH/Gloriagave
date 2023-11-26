@@ -35,19 +35,19 @@ const OurSpaces = () => {
                     <img
                         src={Space1}
                         alt='Space1'
-                        className='md:w-[20vw] object-contain hidden md:block'
+                        className='w-300px md:w-[20vw] object-contain hidden md:block'
                         id='spaces__img1'
                     />
                     <img
                         src={Space2}
                         alt='Space2'
-                        className='md:w-[46vw] object-cover'
+                        className='w-700px md:w-[46vw] object-cover'
                         id='spaces__img2'
                     />
                     <img
                         src={Space3}
                         alt='Space3'
-                        className='md:w-[20vw] object-fill hidden md:block'
+                        className='w-300px md:w-[20vw] object-fill hidden md:block'
                         id='spaces__img3'
                     />
                 </div>
