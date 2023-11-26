@@ -31,23 +31,23 @@ const OurSpaces = () => {
                 >
                     Learn more
                 </Link>
-                <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-10'>
+                <div className='flex flex-col md:flex-row justify-around md:w-5/6 md:h-4/6 mr-auto ml-auto md:gap-4 mt-10'>
                     <img
                         src={Space1}
                         alt='Space1'
-                        className='w-[300px] object-contain hidden md:block'
+                        className='md:w-[20vw] object-contain hidden md:block'
                         id='spaces__img1'
                     />
                     <img
                         src={Space2}
                         alt='Space2'
-                        className='w-[700px] object-cover'
+                        className='md:w-[46vw] object-cover'
                         id='spaces__img2'
                     />
                     <img
                         src={Space3}
                         alt='Space3'
-                        className='w-[300px] object-fill hidden md:block'
+                        className='md:w-[20vw] object-fill hidden md:block'
                         id='spaces__img3'
                     />
                 </div>

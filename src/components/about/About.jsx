@@ -107,41 +107,66 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className='about section' id='about'>
+            <section className='about section md:hidden' id='about'>
                 <div>
                     <h2
                         className=' text-center text-[3.125rem] font-[900] text-black'
                         id='spaces__title'
                     >
-                        Our Spaces
+                        About our town
                     </h2>
                     <span className='section__subtitle mb-8' id='spaces__text'>
-                        Our amenities were specifically crafted to create an
-                        atmosphere
+                        Tequila it’s quaint town nestled in Jalisco, built with
+                        cobblestone
                         <br />
-                        of relaxation and luxury for our clients, making sure
-                        they enjoy
+                        streets and the aroma of blue agave, a place where
+                        history and
                         <br />
-                        Tequila the way we know they would like.
+                        tradition harmonize in every adobe wall. Its essence,
+                        distilled in the
+                        <br />
+                        warmth of hospitality, beckons travelers to savor the
+                        rich heritage
+                        <br />
+                        woven into its vibrant tapestry
                     </span>
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-10'>
                         <img
                             src={Agave}
                             alt='Agave'
-                            className='w-[300px] object-contain hidden md:block'
+                            className='w-[700px] object-cover'
                             id='Agave'
                         />
+                    </div>
+                </div>
+                <div>
+                    <h2
+                        className=' text-center text-[3.125rem] font-[900] text-black'
+                        id='spaces__title'
+                    >
+                        About our town
+                    </h2>
+                    <span className='section__subtitle mb-8' id='spaces__text'>
+                        Tequila it’s quaint town nestled in Jalisco, built with
+                        cobblestone
+                        <br />
+                        streets and the aroma of blue agave, a place where
+                        history and
+                        <br />
+                        tradition harmonize in every adobe wall. Its essence,
+                        distilled in the
+                        <br />
+                        warmth of hospitality, beckons travelers to savor the
+                        rich heritage
+                        <br />
+                        woven into its vibrant tapestry
+                    </span>
+                    <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-10'>
                         <img
-                            src={Agave2}
-                            alt='Space2'
+                            src={Agave}
+                            alt='Agave'
                             className='w-[700px] object-cover'
-                            id='Agave2'
-                        />
-                        <img
-                            src={Agave3}
-                            alt='Agave3'
-                            className='w-[300px] object-fill hidden md:block'
-                            id='Agave3'
+                            id='Agave'
                         />
                     </div>
                 </div>
