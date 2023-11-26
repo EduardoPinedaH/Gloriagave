@@ -146,7 +146,7 @@ const About = () => {
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-center block text-[1rem] w-[90vw] mr-auto ml-auto'
+                        className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
@@ -167,11 +167,11 @@ const About = () => {
                     </div>
                 </div>
                 <div className='mt-5'>
-                    <p className='text-center font-[900] text-black'>
+                    <p className='text-left font-[900] text-black'>
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-center block text-[1rem] w-[90vw] mr-auto ml-auto'
+                        className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
@@ -196,7 +196,7 @@ const About = () => {
                         Learn the artesanal process of out heritage
                     </p>
                     <span
-                        className=' text-center block text-[1rem] w-[90vw] mr-auto ml-auto'
+                        className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
                         Tequila it’s quaint town nestled in Jalisco, built with
