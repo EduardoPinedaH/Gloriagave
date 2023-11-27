@@ -52,6 +52,9 @@ export const RoomsInfo = [
 
 export const RoomsNav = [
     {
+        name: "All Suites",
+    },
+    {
         name: "Suite Deluxe King",
     },
     {

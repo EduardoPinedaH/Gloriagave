@@ -4,12 +4,12 @@ import { RoomsInfo, RoomsNav } from "./Data";
 import "./rooms.css";
 
 const Rooms = () => {
-    const [item, setItem] = useState({ name: "Suite Deluxe King" });
+    const [item, setItem] = useState({ name: "all suites" });
     const [projects, setProjects] = useState([]);
     const [active, setActive] = useState(0);
 
     useEffect(() => {
-        if (item.name === "Suite Deluxe King") {
+        if (item.name === "all suites") {
             setProjects(RoomsInfo);
         } else {
             const newProjects = RoomsInfo.filter((project) => {
@@ -25,11 +25,11 @@ const Rooms = () => {
     };
 
     return (
-        <section className='mx-auto max-w-[1440px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 '>
+        <section className='mx-auto max-w-[1600px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 '>
             <h1 className='mt-10 text-[3.125rem] w-4/5 text-left m-auto'>
                 Rooms
             </h1>
-            <div className='work__filters text-[14px] w-[1100px] text-center m-auto mt-5'>
+            <div className='work__filters text-[14px] w-[1240px] text-center m-auto mt-5'>
                 {RoomsNav.map((item, index) => {
                     return (
                         <span
