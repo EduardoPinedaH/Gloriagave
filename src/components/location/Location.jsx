@@ -1,6 +1,5 @@
 import React from "react";
 import "./location.css";
-import Map from "../../assets/Map.png";
 
 const Location = () => {
     return (
