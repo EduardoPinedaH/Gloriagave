@@ -9,7 +9,7 @@ const Rooms = () => {
     const [active, setActive] = useState(0);
 
     useEffect(() => {
-        if (item.name === "all") {
+        if (item.name === "Suite Deluxe King") {
             setProjects(RoomsInfo);
         } else {
             const newProjects = RoomsInfo.filter((project) => {
