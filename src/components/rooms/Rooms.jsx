@@ -26,10 +26,10 @@ const Rooms = () => {
 
     return (
         <section className='mx-auto max-w-[1600px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 '>
-            <h1 className='mt-10 text-[3.125rem] w-4/5 text-left m-auto'>
+            <h1 className='md:mt-10 text-[3.5rem] md:text-[3.125rem] w-4/5 text-center md:text-left m-auto text-black'>
                 Rooms
             </h1>
-            <div className='work__filters text-[14px] w-[1240px] text-center m-auto mt-5'>
+            <div className='flex flex-col md:flex-row justify-center items-center gap-3 text-[14px] w-4/5 md:w-[1240px] text-center m-auto mt-5'>
                 {RoomsNav.map((item, index) => {
                     return (
                         <span
@@ -47,16 +47,16 @@ const Rooms = () => {
                 })}
             </div>
 
-            <div className='w-4/5 m-auto'>
+            <div className='w-4/5 m-auto '>
                 {projects.map((item) => {
                     return (
-                        <div className=' mt-10'>
+                        <div className=' mt-10 '>
                             <div
                                 key={item.id}
-                                className='h-[390px] gap-10 flex overflow-y-hidden'
+                                className='h-full md:h-[390px] gap-10 flex overflow-y-hidden flex-col md:flex-row'
                             >
-                                <div className='w-2/3'>
-                                    <h1 className=' text-[2rem] text-black mb-6'>
+                                <div className=' w-full md:w-2/3'>
+                                    <h1 className=' text-[2rem] text-center md:text-left text-black mb-6'>
                                         {item.title}
                                     </h1>
                                     <p className='text-sm'>
@@ -70,6 +70,7 @@ const Rooms = () => {
                                         alt='img1'
                                         className='bg-cover bg-no-repeat min-w-[585px]'
                                     />
+
                                     <img
                                         src={item.img2}
                                         alt='img2'
