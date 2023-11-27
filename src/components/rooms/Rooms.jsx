@@ -56,10 +56,10 @@ const Rooms = () => {
                                 className='h-full md:h-[390px] gap-10 flex overflow-y-hidden flex-col md:flex-row'
                             >
                                 <div className=' w-full md:w-2/3'>
-                                    <h1 className=' text-[2rem] text-center md:text-left text-black mb-6'>
+                                    <h1 className=' text-[1.5rem] md:text-[2rem] text-center md:text-left text-black mb-6'>
                                         {item.title}
                                     </h1>
-                                    <p className='text-sm'>
+                                    <p className='text-xs md:text-sm'>
                                         {item.description}
                                     </p>
                                 </div>
