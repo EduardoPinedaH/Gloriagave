@@ -36,7 +36,7 @@ const Rooms = () => {
                         <span
                             className={`${
                                 active === index ? "active-work" : ""
-                            } work__item w-[314px]`}
+                            } work__item w-[175px] md:w-[314px]`}
                             key={index}
                             onClick={(e) => {
                                 handleClick(e, index);
@@ -69,18 +69,18 @@ const Rooms = () => {
                                     <img
                                         src={item.img1}
                                         alt='img1'
-                                        className='bg-cover bg-no-repeat min-w-[585px]'
+                                        className='bg-cover bg-no-repeat min-w-[250px] md:min-w-[585px]'
                                     />
 
                                     <img
                                         src={item.img2}
                                         alt='img2'
-                                        className='bg-cover bg-no-repeat min-w-[585px]'
+                                        className='bg-cover bg-no-repeat min-w-[250px] md:min-w-[585px]'
                                     />
                                     <img
                                         src={item.img3}
                                         alt='img3'
-                                        className='bg-cover bg-no-repeat min-w-[585px]'
+                                        className='bg-cover bg-no-repeat min-w-[250px] md:min-w-[585px]'
                                     />
                                 </div>
                             </div>
