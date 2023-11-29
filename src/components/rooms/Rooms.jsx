@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { RoomsInfo, RoomsNav } from "./Data";
 
 import "./rooms.css";
+import Images from "./Images";
 
 const Rooms = () => {
     const [item, setItem] = useState({ name: "all suites" });
@@ -25,7 +26,7 @@ const Rooms = () => {
     };
 
     return (
-        <section className='mx-auto max-w-[1600px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 '>
+        <section className='mx-auto max-w-[1600px] relative flex flex-col py-10 lg:mb-10 lg:py-20'>
             <h1 className='md:mt-10 text-[3.5rem] md:text-[3.125rem] w-4/5 text-center md:text-left m-auto text-black'>
                 Rooms
             </h1>
@@ -35,7 +36,7 @@ const Rooms = () => {
                         <span
                             className={`${
                                 active === index ? "active-work" : ""
-                            } work__item`}
+                            } work__item w-[314px]`}
                             key={index}
                             onClick={(e) => {
                                 handleClick(e, index);
@@ -64,7 +65,7 @@ const Rooms = () => {
                                     </p>
                                 </div>
 
-                                <div className='hide-scrollbar flex w-full items-start justify-start gap-8 overflow-x-auto overflow-y-hidden h-[390]'>
+                                <div className='flex w-full items-start justify-start gap-8 overflow-x-auto overflow-y-hidden h-[390]'>
                                     <img
                                         src={item.img1}
                                         alt='img1'
