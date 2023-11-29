@@ -30,7 +30,7 @@ const Rooms = () => {
             <h1 className='md:mt-10 text-[3.5rem] md:text-[3.125rem] w-4/5 text-center md:text-left m-auto text-black'>
                 Rooms
             </h1>
-            <div className='flex flex-col md:flex-row justify-center items-center gap-3 text-[14px] w-4/5 md:w-[1240px] text-center m-auto mt-5'>
+            <div className='flex md:flex-row flex-wrap md:flex-nowrap justify-center items-center gap-3 text-[14px] w-4/5 md:w-[1240px] text-center m-auto mt-5'>
                 {RoomsNav.map((item, index) => {
                     return (
                         <span
