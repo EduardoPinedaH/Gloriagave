@@ -30,13 +30,13 @@ const Rooms = () => {
             <h1 className='md:mt-10 text-[3.5rem] md:text-[3.125rem] w-4/5 text-center md:text-left m-auto text-black'>
                 Rooms
             </h1>
-            <div className='flex md:flex-row flex-wrap md:flex-nowrap justify-center items-center gap-3 text-[14px] w-3/5 md:w-[1240px] text-center m-auto mt-5'>
+            <div className='flex md:flex-row flex-wrap md:flex-nowrap justify-center items-center gap-3 text-[14px] w-2/5 md:w-[1240px] text-center m-auto mt-5'>
                 {RoomsNav.map((item, index) => {
                     return (
                         <span
                             className={`${
                                 active === index ? "active-work" : ""
-                            } work__item w-[175px] md:w-[314px]`}
+                            } work__item w-[150px] md:w-[314px]`}
                             key={index}
                             onClick={(e) => {
                                 handleClick(e, index);
