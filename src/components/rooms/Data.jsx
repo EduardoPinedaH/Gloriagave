@@ -26,6 +26,11 @@ export const RoomsInfo = [
         img1: sdk1,
         img2: sdk2,
         img3: sdk3,
+        images: {
+            img1: sdk1,
+            img2: sdk2,
+            img3: sdk3,
+        },
     },
     {
         id: 2,

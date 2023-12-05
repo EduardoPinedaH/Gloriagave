@@ -2,6 +2,16 @@
     display: none;
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+    height: 0.5em;
+    cursor: pointer;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vw;
+    margin-top: 10rem;
+}
+
 .work__filters {
     display: flex;
     justify-content: center;

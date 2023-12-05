@@ -149,12 +149,9 @@ const About = () => {
                         className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
-                        Tequila it’s quaint town nestled in Jalisco, built with
-                        cobblestone streets and the aroma of blue agave, a place
-                        where history and tradition harmonize in every adobe
-                        wall. Its essence, distilled in the warmth of
-                        hospitality, beckons travelers to savor the rich
-                        heritage woven into its vibrant tapestry.
+                        See first hand how the Agave turns to Tequila through
+                        multiple steps of handmade work learned trough
+                        generations.
                     </span>
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
@@ -168,18 +165,16 @@ const About = () => {
                 </div>
                 <div className='mt-5'>
                     <p className='text-left font-[950]  text-black w-[90vw] mr-auto ml-auto'>
-                        Learn the artesanal process of out heritage
+                        Visit the heart of Tequila
                     </p>
                     <span
                         className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
-                        Tequila it’s quaint town nestled in Jalisco, built with
-                        cobblestone streets and the aroma of blue agave, a place
-                        where history and tradition harmonize in every adobe
-                        wall. Its essence, distilled in the warmth of
-                        hospitality, beckons travelers to savor the rich
-                        heritage woven into its vibrant tapestry.
+                        Temple of Santiago Apostol stands as a testament to
+                        Mexico's rich cultural tapestry. This historic gem, with
+                        its stunning colonial architecture and ornate details is
+                        a must visit while in town.
                     </span>
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
@@ -193,18 +188,15 @@ const About = () => {
                 </div>
                 <div className='mt-5'>
                     <p className='text-left font-[950]  text-black w-[90vw] mr-auto ml-auto'>
-                        Learn the artesanal process of out heritage
+                        Try some Tequila
                     </p>
                     <span
                         className=' text-left block text-[1rem] w-[90vw] mr-auto ml-auto'
                         id='spaces__text'
                     >
-                        Tequila it’s quaint town nestled in Jalisco, built with
-                        cobblestone streets and the aroma of blue agave, a place
-                        where history and tradition harmonize in every adobe
-                        wall. Its essence, distilled in the warmth of
-                        hospitality, beckons travelers to savor the rich
-                        heritage woven into its vibrant tapestry.
+                        Immerse yourself in Mexico´s drink, getting to know the
+                        variety of flavors hidden behind every color of tequila
+                        and in the different ways it can be served.
                     </span>
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>

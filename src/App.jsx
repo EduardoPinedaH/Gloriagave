@@ -7,8 +7,8 @@ function App() {
     return (
         <>
             <Routes>
-                <Route path='/' element={<Layout />} />
-                <Route path='/spaces' element={<Layout2 />} />
+                <Route exact path='/' Component={Layout} />
+                <Route exact path='/spaces' Component={Layout2} />
             </Routes>
         </>
     );

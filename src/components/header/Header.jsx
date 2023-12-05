@@ -46,8 +46,10 @@ const Header = () => {
                         </li>
                         <li className='nav__item'>
                             <a
-                                href='#reserve_link'
-                                className='text-base w-32 h-8 flex flex-col text-center items-center justify-center transition duration-[.3s] text-[#505E5D] bg-[rgba(255,255,255,0.3)] rounded-2xl font-extrabold hover:font-black hover:text-[#2c3333] hover:bg-[rgba(255,255,255,0.6)] nav__link hover:scale-105'
+                                href='https://hotels.cloudbeds.com/reservation/W0owHe'
+                                className='text-base w-32 h-8 flex flex-col text-center items-center justify-center transition duration-[.3s] text-[#505E5D] bg-[rgba(255,255,255,0.3)] rounded-2xl font-extrabold hover:font-black hover:text-[#2c3333] hover:bg-[rgba(255,255,255,0.6)] nav__link'
+                                target='_blank'
+                                rel='noreferrer'
                             >
                                 Reserve
                             </a>

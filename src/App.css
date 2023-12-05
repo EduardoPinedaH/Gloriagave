@@ -99,7 +99,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 1em;
+    width: .75em;
     cursor: pointer;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(80, 94, 93, 0.9)
+    background: rgba(80, 94, 93, 0.9);
 }
 
 h1,

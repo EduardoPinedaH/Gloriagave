@@ -28,9 +28,11 @@ const Home = () => {
                     </div>
                     <div className='flex justify-end mr-10'>
                         <a
-                            href='#reserve_link'
-                            className='text-2xl w-44 h-10 flex flex-col text-center items-center justify-center transition duration-[.3s] text-slate-100 bg-[#505E5D] rounded-xl font-extrabold hover:font-black hover:bg-[rgba(80,94,93,0.8)] nav__link mt-5 md:mt-5 hover:scale-105 md:mr-20'
+                            href='https://hotels.cloudbeds.com/reservation/W0owHe'
+                            className='text-2xl w-44 h-10 flex flex-col text-center items-center justify-center transition duration-[.3s] text-slate-100 bg-[#505E5D] rounded-xl font-extrabold hover:font-black hover:bg-[rgba(80,94,93,0.8)] nav__link mt-5 md:mt-5 md:mr-20'
                             id='home__button'
+                            target='_blanket'
+                            rel='noreferrer'
                         >
                             Book now
                         </a>

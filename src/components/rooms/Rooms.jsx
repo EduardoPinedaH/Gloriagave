@@ -48,13 +48,13 @@ const Rooms = () => {
                 })}
             </div>
 
-            <div className='w-4/5 m-auto '>
+            <div className='w-4/5 m-auto'>
                 {projects.map((item) => {
                     return (
-                        <div className=' mt-10 '>
+                        <div className=' mt-10'>
                             <div
                                 key={item.id}
-                                className='h-full md:h-[390px] gap-10 flex overflow-y-hidden flex-col md:flex-row'
+                                className='h-full md:h-[390px] gap-10 flex overflow-y-hidden flex-col md:flex-row '
                             >
                                 <div className=' w-full md:w-2/3'>
                                     <h1 className=' text-[1.5rem] md:text-[2rem] text-center md:text-left text-black mb-6'>
@@ -65,7 +65,7 @@ const Rooms = () => {
                                     </p>
                                 </div>
 
-                                <div className='flex w-full items-start justify-start gap-8 overflow-x-auto overflow-y-hidden h-[390]'>
+                                <div className='flex w-full items-start justify-start gap-8 overflow-x-auto overflow-y-hidden h-[390] custom-scrollbar'>
                                     <img
                                         src={item.img1}
                                         alt='img1'

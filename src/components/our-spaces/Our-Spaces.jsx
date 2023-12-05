@@ -26,7 +26,7 @@ const OurSpaces = () => {
                 </span>
                 <Link
                     to='/spaces'
-                    className=' text-2xl w-52 h-10 flex flex-col text-center items-center justify-center transition duration-[.6s] text-slate-100 bg-[#505E5D] rounded-xl font-extrabold hover:font-black hover:bg-[rgba(80,94,93,0.8)] nav__link mr-auto ml-auto hover:scale-105'
+                    className=' text-xl w-52 h-10 flex flex-col text-center items-center justify-center transition duration-[.6s] text-slate-100 bg-[#505E5D] rounded-xl font-extrabold hover:font-black hover:bg-[rgba(80,94,93,0.8)] nav__link mr-auto ml-auto hover:scale-105'
                     id='spaces__button'
                 >
                     Learn more
