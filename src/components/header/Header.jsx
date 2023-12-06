@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./header.css";
-import Logo from "../../assets/Logo.png";
-import NameLogo from "../../assets/NameLogo.png";
+import Logo from "../../assets/Logo.svg";
+import NameLogo from "../../assets/NameLogo.svg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
                     <img
                         src={Logo}
                         alt='Logo'
-                        className='nav__logo w-6 md:w-12 h-auto lg:mr-48'
+                        className='nav__logo w-6 md:w-56 h-auto'
                     />
                 </a>
 

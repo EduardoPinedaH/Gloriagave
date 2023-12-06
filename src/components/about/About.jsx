@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
-import Agave from "../../assets/Agave.jpg";
-import Agave2 from "../../assets/Agave2.jpg";
-import Agave3 from "../../assets/Agave3.jpg";
-import Agave4 from "../../assets/Agave4.jpg";
+import About1 from "../../assets/About1.jpg";
+import About2 from "../../assets/About2.jpg";
+import About3 from "../../assets/About3.jpg";
+import About4 from "../../assets/About4.webp";
 
 const About = () => {
     return (
@@ -30,8 +30,8 @@ const About = () => {
                         </div>
                         <div>
                             <img
-                                src={Agave}
-                                alt='Agave'
+                                src={About1}
+                                alt='About1'
                                 className='h-[200px] w-full md:w-[700px] md:h-[200px] object-cover'
                             />
                         </div>
@@ -55,9 +55,9 @@ const About = () => {
                         </div>
                         <div>
                             <img
-                                src={Agave2}
-                                alt='Agave2'
-                                className='w-[700px] h-[130px] object-cover'
+                                src={About2}
+                                alt='About2'
+                                className='w-[700px] h-[130px] object-cover object-bottom'
                             />
                         </div>
                     </div>
@@ -65,20 +65,20 @@ const About = () => {
                         <div className='md:flex md:flex-col md:w-4/5'>
                             <p>
                                 <span className=' font-[900] text-black'>
-                                    Learn the artesanal process of out heritage
+                                    Visit the heart of Tequila
                                 </span>{" "}
                                 <br />
-                                See first hand how the Agave turns to Tequila
-                                through <br />
-                                multiple steps of handmade work learned trough{" "}
-                                <br />
-                                generations.
+                                Temple of Santiago Apostol stands as a testament
+                                to <br /> Mexico's rich cultural tapestry. This
+                                historic gem, with its <br /> stunning colonial
+                                architecture and ornate details is a <br /> must
+                                visit while in town.
                             </p>
                         </div>
                         <div>
                             <img
-                                src={Agave3}
-                                alt='Agave3'
+                                src={About3}
+                                alt='About3'
                                 className='w-[700px] h-[130px] object-cover'
                             />
                         </div>
@@ -86,21 +86,20 @@ const About = () => {
                     <div className='md:flex flex-col md:flex-row w-[450px] md:w-[1100px] md:gap-10 mr-auto ml-auto'>
                         <div className='flex md:flex-col md:w-4/5'>
                             <p>
-                                <span className=' font-[900] text-black'>
-                                    Learn the artesanal process of out heritage
+                                <span className=' font-[1000] text-black'>
+                                    Try some Tequila
                                 </span>{" "}
                                 <br />
-                                See first hand how the Agave turns to Tequila
-                                through <br />
-                                multiple steps of handmade work learned trough{" "}
-                                <br />
-                                generations.
+                                Immerse yourself in Mexico´s drink, getting to
+                                know the <br /> variety of flavors hidden behind
+                                every color of tequila <br /> and in the
+                                different ways it can be served.
                             </p>
                         </div>
                         <div>
                             <img
-                                src={Agave4}
-                                alt='Agave4'
+                                src={About4}
+                                alt='About4'
                                 className='w-[700px] h-[130px] object-cover'
                             />
                         </div>
@@ -128,8 +127,8 @@ const About = () => {
                     </span>
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-10'>
                         <img
-                            src={Agave}
-                            alt='Agave'
+                            src={About1}
+                            alt='About1'
                             className='w-[900px] object-cover'
                             id='Agave'
                         />
@@ -156,9 +155,9 @@ const About = () => {
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
                         <img
-                            src={Agave2}
-                            alt='Agave2'
-                            className='w-[800px] object-cover'
+                            src={About2}
+                            alt='About2'
+                            className='w-[800px] h-[270px] object-cover'
                             id='Agave2'
                         />
                     </div>
@@ -179,9 +178,9 @@ const About = () => {
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
                         <img
-                            src={Agave3}
-                            alt='Agave3'
-                            className='w-[800px] object-cover'
+                            src={About3}
+                            alt='About3'
+                            className='w-[800px] h-[270px] object-cover'
                             id='Agave3'
                         />
                     </div>
@@ -201,9 +200,9 @@ const About = () => {
 
                     <div className='flex flex-col md:flex-row justify-around w-5/6 h-4/6 mr-auto ml-auto md:gap-5 lg:gap-2 mt-5'>
                         <img
-                            src={Agave4}
-                            alt='Agave4'
-                            className='w-[800px] object-cover'
+                            src={About4}
+                            alt='About4'
+                            className='w-[800px] h-[270px] object-cover'
                             id='Agave4'
                         />
                     </div>

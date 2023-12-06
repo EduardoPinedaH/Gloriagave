@@ -1,9 +1,9 @@
 import React from "react";
 import "./our-spaces.css";
 import { Link } from "react-router-dom";
-import Space1 from "../../assets/space 1.jpg";
-import Space2 from "../../assets/space 2.jpg";
-import Space3 from "../../assets/space 3.jpg";
+import Space1 from "../../assets/space 4.jpg";
+import Space2 from "../../assets/space 5.jpg";
+import Space3 from "../../assets/space 2.jpg";
 
 const OurSpaces = () => {
     return (
@@ -35,7 +35,7 @@ const OurSpaces = () => {
                     <img
                         src={Space1}
                         alt='Space1'
-                        className='w-300px md:w-[20vw] object-contain hidden md:block'
+                        className='w-300px md:w-[20vw] object-fill hidden md:block'
                         id='spaces__img1'
                     />
                     <img
