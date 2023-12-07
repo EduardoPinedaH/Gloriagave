@@ -3,7 +3,6 @@ import "../App.css";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Rooms from "./rooms/Rooms";
-import ScrollUp from "./scroll-up/ScrollUp";
 
 function Spaces() {
     return (
@@ -13,7 +12,6 @@ function Spaces() {
                 <Rooms />
             </main>
             <Footer />
-            <ScrollUp />
         </>
     );
 }

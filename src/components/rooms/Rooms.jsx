@@ -64,30 +64,13 @@ const Rooms = () => {
                 <h1 className='mt-10 md:mt-32 text-[2.75rem] md:text-[3.125rem] w-full md:w-4/5 text-center md:text-left m-auto text-black font-[900]'>
                     Our Spaces
                 </h1>
-                <p className='md:mt-5 md:ml-32 text-[.75rem] md:text-[1.25rem] w-4/5 md:w-[25%] text-left m-auto'>
-                    Enjoy your time with us in an atmosphere of relaxation and
-                    comfort...
+                <p className='text-[.75rem] md:text-[1rem] w-full md:w-4/5 text-center md:text-left m-auto'>
+                    Enjoy your time with us in an atmosphere of <br />{" "}
+                    relaxation and comfort...
                 </p>
             </section>
 
-            <section className='mx-auto relative flex flex-col py-0 md:py-12'>
-                <svg
-                    viewBox='0 0 18 30'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                    className=' absolute right-0 bottom-0 mr-1 md:mr-4 mb-2 md:mb-16 md:w-[18px] md:h-[30px] w-3 h-auto'
-                >
-                    <path
-                        d='M1 10L7 16.0645L1 22'
-                        stroke={arrowColor}
-                        stroke-width='2'
-                    />
-                    <path
-                        d='M4 1L17 15.1505L4 29'
-                        stroke={arrowColor}
-                        stroke-width='2'
-                    />
-                </svg>
+            <section className='flex flex-col py-0 md:py-12'>
                 <div
                     className='wrapper'
                     onMouseDown={grabbing}
@@ -95,39 +78,57 @@ const Rooms = () => {
                     onMouseUp={grab}
                     onMouseMove={move}
                 >
-                    <div className='slider'>
+                    <svg
+                        viewBox='0 0 18 30'
+                        fill='none'
+                        xmlns='http://www.w3.org/2000/svg'
+                        className='z-[99999] md:w-8 w-4 absolute right-2 mt-6 md:right-5 md:mt-2'
+                    >
+                        <path
+                            d='M1 10L7 16.0645L1 22'
+                            stroke={arrowColor}
+                            stroke-width='2'
+                        />
+                        <path
+                            d='M4 1L17 15.1505L4 29'
+                            stroke={arrowColor}
+                            stroke-width='2'
+                        />
+                    </svg>
+                    <div className='slider md:w-[100vw] h-[50rem] md:h-auto z- overflow-y-hidden min-w-full flex justify-center items-center'>
                         <img
                             src={OurSpaces1}
                             alt='ourspaces1'
-                            className='image'
+                            className='image bg-cover bg-no-repeat h-[20vh] md:min-w-[100vw] md:h-auto'
                         />
                     </div>
-                    <div className='slider'>
+
+                    <div className='slider md:w-[100vw] h-[50rem] md:h-auto z- overflow-y-hidden min-w-full flex justify-center items-center'>
                         <img
                             src={OurSpaces2}
                             alt='ourspaces2'
-                            className='image'
+                            className='image bg-cover bg-no-repeat h-[20vh] md:min-w-[100vw] md:h-auto'
                         />
                     </div>
-                    <div className='slider'>
+                    <div className='slider md:w-[100vw] h-[50rem] md:h-auto z- overflow-y-hidden min-w-full flex justify-center items-center'>
                         <img
                             src={OurSpaces3}
                             alt='ourspaces3'
-                            className='image'
+                            className='image bg-cover bg-no-repeat h-[20vh] md:min-w-[100vw] md:h-auto'
                         />
                     </div>
-                    <div className='slider'>
+                    <div className='slider md:w-[100vw] h-[50rem] md:h-auto z- overflow-y-hidden min-w-full flex justify-center items-center'>
                         <img
                             src={OurSpaces4}
                             alt='ourspaces4'
-                            className='image'
+                            className='image bg-cover bg-no-repeat h-[20vh] md:min-w-[100vw] md:h-auto'
                         />
                     </div>
-                    <div className='slider'>
+                    <div className='slider md:w-[100vw] h-[50rem] md:h-auto z- overflow-y-hidden min-w-full flex justify-center items-center'>
                         <img
                             src={OurSpaces5}
                             alt='ourspaces5'
-                            className='image'
+                            className='image bg-cover bg-no-repeat h-[20vh] md:min-w-[100vw] md:h-auto'
                         />
                     </div>
                 </div>
@@ -158,7 +159,7 @@ const Rooms = () => {
                 <div className='w-4/5 m-auto'>
                     {projects.map((item) => {
                         return (
-                            <div className=' mt-10'>
+                            <div className=' mt-10 mb-20 md:mb-0'>
                                 <div
                                     key={item.id}
                                     className='h-full md:h-[390px] gap-10 flex overflow-y-hidden flex-col md:flex-row '
@@ -171,8 +172,25 @@ const Rooms = () => {
                                             {item.description}
                                         </p>
                                     </div>
+                                    <svg
+                                        viewBox='0 0 18 30'
+                                        fill='none'
+                                        xmlns='http://www.w3.org/2000/svg'
+                                        className='z-[99999] md:w-5 w-3 absolute right-14 mt-48 md:right-44 md:mt-4'
+                                    >
+                                        <path
+                                            d='M1 10L7 16.0645L1 22'
+                                            stroke={arrowColor}
+                                            stroke-width='3'
+                                        />
+                                        <path
+                                            d='M4 1L17 15.1505L4 29'
+                                            stroke={arrowColor}
+                                            stroke-width='3'
+                                        />
+                                    </svg>
 
-                                    <div className='flex w-full items-start justify-start gap-8 overflow-x-auto overflow-y-hidden h-[390] custom-scrollbar'>
+                                    <div className='flex w-full items-start justify-start gap-8 overflow-x-auto overflow-y-hidden h-[390] custom-scrollbar '>
                                         <img
                                             src={item.img1}
                                             alt='img1'
@@ -187,6 +205,11 @@ const Rooms = () => {
                                         <img
                                             src={item.img3}
                                             alt='img3'
+                                            className='bg-cover bg-no-repeat min-w-[250px] md:min-w-[585px]'
+                                        />
+                                        <img
+                                            src={item.img4}
+                                            alt='img4'
                                             className='bg-cover bg-no-repeat min-w-[250px] md:min-w-[585px]'
                                         />
                                     </div>
